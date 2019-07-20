@@ -15,7 +15,7 @@ This is a Verilog implemented hardware architecture for 30fps full-HD gray-scale
 
 ## Visualize
 
-Run read_verilog_image.m for visulization
+Run read_verilog_image.m for visualization
 
 ## Result
 <p align="left">
