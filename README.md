@@ -4,14 +4,14 @@ This is a Verilog implemented hardware architecture for 30fps full-HD gray-scale
 ## Usage
 
 1. Run gen_patt_integer_image.m for test pattern gereration
-  - Change stripe_ind (0-15) to test different image stripe
+    - Change stripe_ind (0-15) to test different image stripe
   
 2. Copy DW_div_function.inc from your designware directory to this folder
 
 3. Run simulation:
 
-  ncverilog tb_IIE.v Guided_Image.v +access+r -y \<DesignWare directory> +libext+.v
-  - \<DesignWare directory>: your designware directory path (e.g. /usr/cad/synopsys/synthesis/cur/dw/sim_ver/)
+   ncverilog tb_IIE.v Guided_Image.v +access+r -y \<DesignWare directory> +libext+.v
+    - \<DesignWare directory>: your designware directory path (e.g. /usr/cad/synopsys/synthesis/cur/dw/sim_ver/)
 
 ## Visualize
 
